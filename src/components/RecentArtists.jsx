@@ -12,9 +12,9 @@ function RecentArtists() {
     return (
         <div className="bg bg-black max-h-60  w-60 m-3 " >
            <h1 className=" font-thin text-sm text-white">Recent Artists</h1>
-          <div className=" max-h-48 overflow-y-auto  flex flex-wrap gap-3 ">
+          <div className=" max-h-48 overflow-y-auto  flex flex-wrap gap-3  scrollbar-hide">
               <div className=" bg-yellow-500 h-20 w-20 m-0 rounded-xl p-1">
-              <img className=" object-contain h-16  w-20" src={willypaul} alt="istock" />
+              <img className=" object-contain h-16  w-20z m-2 " src={willypaul} alt="istock" />
               </div>
               <div className=" bg-red-600 h-20 w-20 m-0 rounded-xl p-1">
                 <img className=" object-contain h-20 w-32" src={khaligragh} alt="img"/>

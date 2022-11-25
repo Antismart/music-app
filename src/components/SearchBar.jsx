@@ -1,11 +1,12 @@
 import React from 'react'
+import { useState, useEffect } from 'react'
 
 function SearchBar() {
-  return <div className=" bg-gray-200 opacity-80 rounded-xl p-1 h-10">
-      SearchBar
+  const [query, setQuery]= useState("")
+  return (
+      <div className=" bg-black  rounded-full p-1 h-10">
+      <input className=' w-full h-10 rounded-full' placeholder='Search For Music' onChange={event => setQuery(event.target.value)} />
       </div>
+  )
 }
-// border:1px solid red;
-// background-color: rgb(34 197 94);
-
 export default SearchBar

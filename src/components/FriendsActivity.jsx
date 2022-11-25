@@ -10,32 +10,33 @@ function FriendsActivity() {
          <Settings/>
          <User/>
        </div>
-       <div className=' bg-black text-white h-full rounded-xl p-1 m-2'>
+       <div className=' bg-neutral-900 text-white h-full rounded-xl p-1 m-2'>
          <div className=''>
            <span className=' text-sm m-3'>Friends Activity</span>
            <div>
-           <div className=' bg-white h-11 w-11 rounded-full m-5'> </div>
-           
+               <div className=' bg-white h-11 w-11 rounded-full m-5'> </div>
            </div>
            <div>
-           <div className=' bg-white h-11 w-11 rounded-full m-5'> </div>
+               <div className=' bg-white h-11 w-11 rounded-full m-5'> </div>
            </div>
            <div>
-           <div className=' bg-white h-11 w-11 rounded-full m-5'> </div>
+               <div className=' bg-white h-11 w-11 rounded-full m-5'> </div>
            </div>
            <div>
-           <div className=' bg-white h-11 w-11 rounded-full m-5'> </div>
+               <div className=' bg-white h-11 w-11 rounded-full m-5'> </div>
            </div>
            <div>
-           <div className=' bg-white h-11 w-11 rounded-full m-5'></div>
+               <div className=' bg-white h-11 w-11 rounded-full m-5'></div>
            </div>
            <div>
-           <div className=' bg-white h-11 w-11 rounded-full m-5'></div>
+               <div className=' bg-white h-11 w-11 rounded-full m-5'></div>
            </div>
            <div>
-           <div className=' bg-white h-11 w-11 rounded-full m-5'></div>
+               <div className=' bg-white h-11 w-11 rounded-full m-5'></div>
            </div>
-           <div className=' bg-white  text-black text-center rounded-2xl h-10 w-36'>View All</div>
+           <div className='  m-2'>
+               <div className=' bg-neutral-700 text-white  rounded-2xl h-10 w-full '><h1 className=' text-lg text-center p-2 '>View All</h1></div>
+           </div>
          </div>
         
        </div>
