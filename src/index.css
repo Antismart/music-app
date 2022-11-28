@@ -53,12 +53,7 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
-html {
-  -ms-overflow-style: none; /* IE and Edge */
-  scrollbar-width: none;
-  scrollbar-color: transparent transparent;
-}
-
+ 
 
 @media (prefers-color-scheme: light) {
   :root {
