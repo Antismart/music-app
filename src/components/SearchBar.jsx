@@ -1,12 +1,37 @@
-import React from 'react'
-import { useState } from 'react'
+import React, { useState } from 'react'
+import { useNavigate } from 'react-router-dom'
+import { FiSearch } from "react-icons/fi";
 
-function SearchBar() {
-  const [query, setQuery]= useState("")
+
+const SearchBar =() => {
+  const navigate = useNavigate();
+  const [ searchTerm, setSearchTerm] = useState('');
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    navigate('/search/${searchTerm}');
+  };
+
   return (
-      <div className=" bg-black  rounded-full p-1 h-10">
-      <input className=' w-full h-10 rounded-full ' placeholder='Search For Music' onChange={event => setQuery(event.target.value)} />
+    <form onSubmit={handleSubmit} autoComplete="off" className='p-2 text-gray-400 focus-within:text-gray-600'>
+      <label htmlFor='search-field' className=' sr-only'>
+        search all files
+      </label>
+      <div className=' flex flex-row justify-start items-center'>
+        <FiSearch aria-hidden="true" className='w-5 h-5 ml-4'/>
+        <input  
+          name='search-field'
+          autoComplete='off'
+          id='search-field'
+          className="flex-1 bg-white border rounded-full placeholder-gray-500 outline-none text-base text-black p-1"
+          placeholder='Search'
+          type='search'
+          value={searchTerm}
+          onChange={(e) => setSearchTerm(e.target.value)}
+        />
       </div>
-  )
-}
-export default SearchBar
+    </form>
+  );
+};
+export default SearchBar;
