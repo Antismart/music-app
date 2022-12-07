@@ -1,0 +1,44 @@
+{
+    "artist": [
+        {
+          "id":1,
+          "name": "Willypaul",
+          "image":"[{url: willypaul}]"
+        },
+        {
+          "id":2,
+          "name":"Khaligragh",
+          "image":"[{url: khaligragh}]"
+        },
+        {
+          "id":3,
+          "name":"Lilwayne",
+          "image":"[{url:lilwayne}]"
+        },
+        {
+          "id":4,
+          "name":"Lilnas",
+          "image":"[{url:lilnas}]"
+        },
+        {
+          "id":5,
+          "name":"Davido",
+          "image":"[{url: davido}]"
+        },
+        {
+          "id":6,
+          "name":"Nickiminaj",
+          "image":"[{url:nickiminaj}]"
+        },
+        {
+          "id":7,
+          "name":"Ssaru",
+          "image":"[{url:ssaru}]"
+        },
+        {
+          "id":8,
+          "name":"Koffee",
+          "image":"[{url:koffee}]"
+        }
+      ]
+}
