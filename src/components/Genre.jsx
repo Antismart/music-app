@@ -2,7 +2,7 @@ import React from "react";
  
 function Genre () {
     return(
-        <div className="bg bg-black max-h-64  w-60 m-3 ">
+        <div className="bg bg-black max-h-64 w-48 m-3 ">
             <h1 className=" text-white  text-sm">Genre</h1>
             <div className="flex flex-wrap text-white">
                 <div className=" bg bg-slate-900 w-11 rounded-xl p-1 text-xs m-2">

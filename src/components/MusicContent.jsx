@@ -14,9 +14,9 @@ function MusicContent() {
     )
   })
   return (
-    <div className=" bg-black flex flex-col flex-1 m-2  ">
+    <div className=" bg-black flex flex-col flex-1 m-2 ">
       <div
-        className="overflow-x-scroll flex w-full  scrollbar-hide">
+        className=" overflow-x-scroll flex w-full  scrollbar-hide">
         {coverSongs}
       </div>
       <div className=' flex flex-1'>
