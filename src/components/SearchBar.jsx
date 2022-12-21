@@ -24,7 +24,7 @@ const SearchBar =() => {
           name='search-field'
           autoComplete='off'
           id='search-field'
-          className="flex-1 bg-white border rounded-full placeholder-gray-500 outline-none text-base text-black p-1"
+          className="flex-1 bg-slate-800 border rounded-full placeholder-white placeholder:p-2 outline-none text-base text-white p-1"
           placeholder='Search'
           type='search'
           value={searchTerm}

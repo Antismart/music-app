@@ -1,44 +1,173 @@
+
 {
     "artist": [
         {
           "id":1,
-          "name": "Willypaul",
-          "image":"[{url: willypaul}]"
+          "CoverName": "Willypaul",
+          "image":"../store/Images/willypaul.png" 
         },
         {
           "id":2,
-          "name":"Khaligragh",
-          "image":"[{url: khaligragh}]"
+          "CoverName":"Khaligragh",
+          "image":"../store/Images/khaligragh-1.png"
         },
         {
           "id":3,
-          "name":"Lilwayne",
-          "image":"[{url:lilwayne}]"
+          "CoverName":"Lilwayne",
+          "image":"../store/Images/lilwyne.png"
         },
         {
           "id":4,
-          "name":"Lilnas",
-          "image":"[{url:lilnas}]"
+          "CoverName":"Lilnas",
+          "image":"../store/Images/lilnas.png"
         },
         {
           "id":5,
-          "name":"Davido",
-          "image":"[{url: davido}]"
+          "CoverName":"Davido",
+          "image":"../store/Images/davido.png"
         },
         {
           "id":6,
-          "name":"Nickiminaj",
-          "image":"[{url:nickiminaj}]"
+          "CoverName":"Nickiminaj",
+          "image":"../store/Images/nickiminaj.png"
         },
         {
           "id":7,
-          "name":"Ssaru",
-          "image":"[{url:ssaru}]"
+          "CoverName":"Ssaru",
+          "image":"../store/Images/ssaru.png"
         },
         {
           "id":8,
-          "name":"Koffee",
-          "image":"[{url:koffee}]"
-        }
+          "CoverName":"Koffee",
+          "image":"../store/Images/koffee.png"
+        },
+     
+        {
+          "id":9,
+          "CoverName":"Drake",
+          "image":"../store/Images/drake.png"
+        },
+        {
+          "id":10,
+          "CoverName":"Bahati",
+          "image":"../store/Images/bahati.png"
+        },
+        {
+          "id":11,
+          "CoverName":"Future",
+          "image":"../store/Images/future.png"
+        },
+        {
+          "id":12,
+          "CoverName":"Tems",
+          "image":"../store/Images/Tems.png"
+        },
+        {
+          "id":13,
+          " CoverName":"Sauti Sol",
+          "image":"../store/Images/sautiSol.png"
+        },
+        {
+          "id":14,
+          "CoverName":"Vybez Kartel",
+          "image":"../store/Images/kartel.png"
+        },
+        {
+          "id":15,
+          "CoverName":"Ayra Starr",
+          "image":"../store/Images/ayraStarr.png"
+        },
+        {
+          "id":16,
+          "CoverName":"Wakadinali",
+          "image":"../store/Images/wakadinali.png"
+        },
+        {
+          "id":17,
+          " CoverName":"friend1",
+          "image":"../store/Images/friend1.png",
+          "content":"Dutck Kiss-Inner Mix",
+          "name":"Amber Holmes"
+        },
+        {
+          "id":18,
+          " CoverName":"friend2",
+          "image":"../store/Images/friend2.png",
+          "content":"Ash-White Desert",
+          "name":" Maria Jones"
+       },
+       {
+        "id":19,
+        " CoverName":"friend3",
+        "image":"../store/Images/friend3.png",
+        "content":"PK Parachute",
+        "name":"Spec Diaz"
+       },
+       {
+        "id":20,
+        " CoverName":"friend4",
+        "image":"../store/Images/friend4.png",
+        "content":"Dutck kiss-Inner Mix",
+        "name":"Milton Heig"
+       },
+       {
+        "id":21,
+        " CoverName":"friend5",
+        "image":"../store/Images/friend5.png",
+        "content":"Ash- White Desert",
+        "name":"Marion James"
+
+       },
+       {
+        "id":22,
+        " CoverName":"friend6",
+        "image":"../store/Images/friend6.png",
+        "content":"Ash- White Desert",
+        "name":"Mia Stones"
+       },
+       {
+        "id":23,
+        " CoverName":"friend7",
+        "image":"../store/Images/friend7.png",
+        "content":"Pk-Parachute",
+        "name":"Dranny Brooks"
+       },
+       {
+        "id":24,
+        " CoverName":"ruger",
+        "image":"../store/Images/ruger GirlFriend.png",
+        "name":"Girl Friend"
+       },
+       {
+        "id":25,
+        " CoverName":"kunaKuna",
+        "image":"../store/Images/kuna kuna.png",
+        "name":"Kuna Kuna"
+       },
+       {
+        "id":26,
+        " CoverName":"chris Brown",
+        "image":"../store/Images/chrisBrown newFlame.png",
+        "name":"New Flame"
+       },
+       {
+        "id":27,
+        " CoverName":"bandana",
+        "image":"../store/Images/bandana.png",
+        "name":"Bandana"
+       },
+       {
+        "id":28,
+        " CoverName":"jovial",
+        "image":"../store/Images/jovial.png",
+        "name":"LALALA"
+       },
+       {
+        "id":29,
+        " CoverName":"SAsahivi",
+        "image":"../store/Images/sasa hivi.png",
+        "name":"Sasa Hivi"
+       }
+        
       ]
 }
